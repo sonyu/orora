@@ -1,0 +1,70 @@
+.header ul, li, a {
+	margin-top: 0;
+	padding: 0;
+}
+/* navbar */
+.navbar-default {
+	
+	margin-top:5px;
+	background-color: #007f74;
+	border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-nav>li>a :hover{
+	background-color: red;
+	border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+	color: #777;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+	{
+	color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;	
+	
+}
+.glyphicon  {
+	padding: 0;
+	margin:0;
+	height: 20px;
+
+	}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #007f74;  /*Sets the text hover color on navbar*/
+background: #e5e5e3;
+}
+
+.breadcrumb{
+	height: 25px;
+	background-color: #e3ebed;	
+}
+.right-header {
+	margin-top:40px;
+	margin-right: 0;
+	padding-right: 0;
+	float:right;
+	width: 200px;
+	
+}
+.right-header li{
+	width: 200px;
+	margin-right: 0;
+	padding-right: 0;
+	list-style-type:none;
+}
+.center-header{
+	margin-left:40px;
+}
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:9px !important; 
+    padding-bottom:0 !important;
+    height: 38px;
+}
+.navbar {min-height:38px !important;}
