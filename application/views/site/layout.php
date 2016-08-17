@@ -6,11 +6,15 @@
 	<?php // $this->load->view($temp,$this->data)?>
 	<div class="container">
 		<?php $this->load->view('site/header')?>		
-		<div class ="content col-sm-12">
+		<div class="content col-sm-12">
+			<div class="container content">
+				<div class="row">
 		<?php $this->load->view('site/left')?>
 		<?php $this->load->view('site/customer/index')?>
 		</div>
-		<div class = "footer"></div>
+			</div>
+		</div>
+		<div class="footer"></div>
 	</div>
 
 </body>

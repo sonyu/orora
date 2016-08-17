@@ -1,4 +1,35 @@
-.left{	
-    border-right:dotted #e3ebed;
-	 
+
+.panel{
+	margin-left: 2px;
+	
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	padding: 5px;
+}
+.panel-heading{
+	height: 35px;
+	
+}
+.panel-heading a{
+	text-decoration: none;
+	font-size:15px;
+}
+.icon-left{
+	float:right;
+}
+
+.panel-body a, .panel-heading a{
+	font-size:12px;
+	font-weight: bold;	
+	color: #555;
+}
+.panel-heading:hover{	
+	background-color: #A9F5E1;	
+}
+
+.panel-body> table> tbody >tr:hover{
+	background-color: #A9F5E1;	
+}
+.panel-body a, .panel-heading a{
+text-decoration:none;
 }
